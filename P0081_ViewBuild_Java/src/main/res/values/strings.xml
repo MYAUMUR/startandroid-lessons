@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ViewBuild Java</string>
+    <string name="new_text_in_textview">New text in TextView</string>
+</resources>

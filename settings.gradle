@@ -1,0 +1,24 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Android Lessons"
+include ':app'
+include ':P0072_LayoutProp'
+include ':P0081_ViewBuild'
+include ':P0081_ViewBuild_Java'
+include ':P0091_OnClickButtons'
+include ':P0102_ActivityListener'
+include ':P0131_MenuSimple'
+include ':P0141_MenuAdv'
+include ':P0151_ContextMenu'
